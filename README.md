@@ -12,3 +12,7 @@ This repository includes materials on different topics of machine learning algor
 #Python
 - [ ] [Pydata](https://www.youtube.com/user/PyDataTV)
 - [ ] [Enthought](https://www.youtube.com/user/EnthoughtMedia) 
+
+# Github 
+
+- [ ] [Analytics Vidhya Github References](https://www.analyticsvidhya.com/blog/2018/08/best-machine-learning-github-repositories-reddit-threads-july-2018/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29)
