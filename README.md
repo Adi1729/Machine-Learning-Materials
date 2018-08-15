@@ -7,6 +7,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [XGBoost](http://proceedings.mlr.press/v42/chen14.pdf)
 - [ ] [Random Forest](https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf) 
 - [ ] [NLP with Deep Learning](http://web.stanford.edu/class/cs224n/syllabus.html)
+- [ ] [Word Embedding](https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/)
 
 
 #Python
