@@ -13,6 +13,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [Random Forest](https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf) 
 - [ ] [NLP with Deep Learning](http://web.stanford.edu/class/cs224n/syllabus.html)
 - [ ] [Word Embedding](https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/)
+- [ ] [CNN](http://brohrer.github.io/how_convolutional_neural_networks_work.html)
 
 
  ## Python
