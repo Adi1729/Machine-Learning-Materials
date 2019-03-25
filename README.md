@@ -15,6 +15,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [Word Embedding - Analytics Vidhya](https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/)
 - [ ] [Word Embedding - Xin Rong](https://www.youtube.com/watch?v=D-ekE-Wlcds)
 - [ ] [CNN](http://brohrer.github.io/how_convolutional_neural_networks_work.html)
+- [ ] [Information Value](https://medium.com/@sundarstyles89/weight-of-evidence-and-information-value-using-python-6f05072e83eb)
 
 
  ## Python
