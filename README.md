@@ -26,3 +26,9 @@ This repository includes materials on different topics of machine learning algor
  ## Github 
 
 - [ ] [Analytics Vidhya Github References](https://www.analyticsvidhya.com/blog/2018/08/best-machine-learning-github-repositories-reddit-threads-july-2018/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29)
+
+# Machine Learning Questions
+
+This repository contains my personal notes and summaries on [DeepLearning.ai](https://deeplearning.ai) specialization courses. I've enjoyed every little bit of the course hope you enjoy my notes too.
+
+[DeepLearning.ai](https://deeplearning.ai)  contains five courses which can be taken on [Coursera](https://www.coursera.org/specializations/deep-learning). The five courses titles are:
