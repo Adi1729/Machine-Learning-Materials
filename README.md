@@ -37,6 +37,6 @@ This section contains notes/summaries/questions on some of Machine Learning topi
    1. Inertia makes the assumption that clusters are convex and isotropic, which is not always the case. It responds poorly to elongated clusters, or manifolds with irregular shapes.                                                                            
    2. Inertia is not a normalized metric: we just know that lower values are better and zero is optimal. But in very high-dimensional spaces, Euclidean distances tend to become inflated (this is an instance of the so-called “curse of dimensionality”). Running a dimensionality reduction algorithm such as PCA prior to k-means clustering can alleviate this problem and speed up the computations.
    
-   <img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/kmeans.jpg">
-   <img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/kmeans.jpg">
+   <img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/kmeans.png">
+ 
 
