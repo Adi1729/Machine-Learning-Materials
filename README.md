@@ -18,6 +18,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [Information Value](https://medium.com/@sundarstyles89/weight-of-evidence-and-information-value-using-python-6f05072e83eb)
 - [ ] [Kmeans for Beginners](https://www.youtube.com/watch?v=YWgcKSa_2ag)
 - [ ] [AdaBoost - Special Case of Gradient Boost](https://www.youtube.com/watch?v=ErDgauqnTHk)
+- [ ] [Gradient Boost](https://www.youtube.com/watch?v=sRktKszFmSk)
 
 
  ## Python
