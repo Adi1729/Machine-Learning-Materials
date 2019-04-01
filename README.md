@@ -42,3 +42,6 @@ This section contains notes/summaries/questions on some of Machine Learning topi
    <img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/kmeans.png">
  
 
+## Does Random Forest overfit ?
+
+  No. It uses bagging technique which generates several decision trees in parallel also known as base learners. Data sampled with replacement is fed to these learners for training. The final prediction is the averaged output from all the learners. Individual tress might have high variance, but the bagging method eventually reduces variance.
