@@ -75,6 +75,10 @@ More is the error rate, less is the weightage given to trees.
   
   This algorithm boost weak classifer in different ways. It uses gradient descent of loss function to reduce its misclassification. 
   
-  An initial prediction is made. Its residual(Actual - Predcition) is calculated. Residual is nothing but a gradient of loss function. For the next model, this residual will be target variable. The way it differs from another algorithm like logistic is , it uses gradient descent for every rows rather than gradient descent at the end of each iterations. This makes the algorithm prone to outliers.
+  An initial prediction is made. Its residual(Actual - Predcition) is calculated. Residual is nothing but a gradient of loss function. For the next model, this residual will be target variable. The way it differs from another algorithm like logistic is , GBM uses gradient descent for every rows rather than gradient descent at the end of each iterations. This makes the algorithm prone to outliers.
+  
+  
+  
+  
   
   
