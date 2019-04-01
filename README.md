@@ -50,7 +50,7 @@ This section contains notes/summaries/questions on some of Machine Learning topi
 
 ### Adaboost
 
-  Adaboost works by bossting giving high weightage to misclassification and lower weightage to correct classification. 
+  Adaboost works by giving higher weightage to misclassification and lower weightage to correct classification. 
 
 For eg. 
 
@@ -65,8 +65,16 @@ learning rate = 0.1
 weightage to rows of correct classification = (e^-0.1)/sum of numerator = 720
 weightage to rows of incorrect classifcation = (e^0.1)/sum of numerator = 220
 
-Hence , 20 rows from 200 misclassfied is duplicated to get 220 rows.
+Hence , 20 rows from 200 misclassfied is duplicated to get 220 rows. This might results in overfitting.
 
 The next model is built. 
 At the end of n trees, weighted sum of predictions is taken into account. 
 More is the error rate, less is the weightage given to trees.
+
+### Gradient Boost
+  
+  This algorithm boost weak classifer in different ways. It uses gradient descent of loss function to reduce its misclassification. 
+  
+  An initial prediction is made. Its residual(Actual - Predcition) is calculated. Residual is nothing but a gradient of loss function. For the next model, this residual will be target variable. The way it differs from another algorithm like logistic is , it uses gradient descent for every rows rather than gradient descent at the end of each iterations. This makes the algorithm prone to outliers.
+  
+  
