@@ -75,6 +75,7 @@ More is the error rate, less is the weightage given to trees.
 ### Extreme Gradient Boost 
 
  Regularization , Penalise model for its complexity eg for number of trees or leaves by giving weights 
+ Works well on sparse data (eg tfidf)
  
  Also GBM and XGB works on greedy search to decide  splitting criteria.
 
