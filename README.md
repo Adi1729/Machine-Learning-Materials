@@ -50,7 +50,9 @@ In Boosting technique , same is done by giving weights to misclassified rows.
 
 ### Shallow and Bushy trees
 
-In Boosting trees, depending on problem statement one might get shallow tress as compared to those in RF. This can cause high bias.  
+In Boosting trees, depending on problem statement one might get shallow tress as compared to those in RF. Boosting trees grow shallow trees because it can wait for later trees to grow in depth where it has not done well in terms of predictions. In Random Forest trees are independent and identically distributed , so each trees have to grow at much larger depth to identify patterns. This causes high variance which is reduced by averaging out. 
+
+Source : https://www.youtube.com/watch?v=wPqtzj5VZus @42:05 
 
 ### Does Random Forest overfit ?
 
@@ -80,6 +82,8 @@ More is the error rate, less is the weightage given to trees.
   This algorithm boost weak classifer in different ways. It uses gradient descent of loss function to reduce its misclassification. 
   
   An initial prediction is made. Its residual(Actual - Predcition) is calculated. Residual is nothing but a gradient of loss function. For the next model, this residual will be target variable. The way it differs from another algorithm like logistic is , GBM uses gradient descent for every rows rather than gradient descent at the end of each iterations. This makes the algorithm prone to outliers.
+  
+  Gradient Boost works well if there is good differences between classes. However, if data is noisy it might look to fit each pattern and might overfit.
 
 ### Extreme Gradient Boost 
 
@@ -87,6 +91,8 @@ More is the error rate, less is the weightage given to trees.
  Works well on sparse data (eg tfidf)
  
  Also GBM and XGB works on greedy search to decide  splitting criteria.
+ 
+### 
 
  
   
