@@ -46,3 +46,27 @@ This section contains notes/summaries/questions on some of Machine Learning topi
 ### Does Random Forest overfit ?
 
   No. It uses bagging technique which generates several decision trees in parallel also known as base learners. Data sampled with replacement is fed to these learners for training. The final prediction is the averaged output from all the learners. Individual tress might have high variance, but the bagging method eventually reduces variance.
+
+
+### Adaboost
+
+  Adaboost works by bossting giving high weightage to misclassification and lower weightage to correct classification. 
+
+For eg. 
+
+Lets say total number of rows = 1000
+initial weightage to each rows = 1/1000
+
+correct classification =  200
+misclassification = 800
+
+learning rate = 0.1
+
+weightage to rows of correct classification = (e^-0.1)/sum of numerator = 720
+weightage to rows of incorrect classifcation = (e^0.1)/sum of numerator = 220
+
+Hence , 20 rows from 200 misclassfied is duplicated to get 220 rows.
+
+The next model is built. 
+At the end of n trees, weighted sum of predictions is taken into account. 
+More is the error rate, less is the weightage given to trees.
