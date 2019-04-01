@@ -92,7 +92,9 @@ More is the error rate, less is the weightage given to trees.
  
  Also GBM and XGB works on greedy search to decide  splitting criteria.
  
-### 
+### How to see relationship of features with target variable.
+
+
 
  
   
