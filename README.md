@@ -94,6 +94,8 @@ More is the error rate, less is the weightage given to trees.
  
 ### How to see relationship of features with target variable.
 
+  <img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/model_interpretation_ensemble.png">
+
 
 
  
