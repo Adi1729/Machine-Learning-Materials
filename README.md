@@ -42,11 +42,20 @@ This section contains notes/summaries/questions on some of Machine Learning topi
    
    <img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/kmeans.png">
  
+### Decorrelating Trees
+
+In Ensemble Technique (RF, GBM, GRB) , trees are decorrelated to reduce variance. Random Forest uses bagging in which number of features are selected at random and then from those features splitting criteria is decided. In this way , every tree is pretty much different from each other. 
+
+In Boosting technique , same is done by giving weights to misclassified rows. 
+
+### Shallow and Bushy trees
+
+In Boosting trees, depending on problem statement one might get shallow tress as compared to those in RF. This can cause high bias.  
 
 ### Does Random Forest overfit ?
 
   No. It uses bagging technique which generates several decision trees in parallel also known as base learners. Data sampled with replacement is fed to these learners for training. The final prediction is the averaged output from all the learners. Individual tress might have high variance, but the bagging method eventually reduces variance.
-
+  
 
 ### Adaboost
 
@@ -79,7 +88,7 @@ More is the error rate, less is the weightage given to trees.
  
  Also GBM and XGB works on greedy search to decide  splitting criteria.
 
-  
+ 
   
   
   
