@@ -96,8 +96,18 @@ More is the error rate, less is the weightage given to trees.
 
 ## Extreme Gradient Boost 
 
- Regularization , Penalise model for its complexity eg for number of trees or leaves by giving weights 
- Works well on sparse data (eg tfidf)
+ 1. Regularization:
+
+      Minimizethe following regularized objective. 
+      
+      L(φ) = ∑il(ˆyi,yi) +∑kΩ(fk)  
+         where  Ω(f) = γT+12λ‖w‖2(2) 
+    l:  A differentiable convex loss function that measures the difference between the prediction y and the target yi.
+    Ω : Penalizes the complexity of the model(i.e., the regression tree functions).  
+    λ : The additional regularization term helps to smooth the final learnt weights to avoid over-fitting. 
+    
+    Intuitively, the regularized objective will tend to select a model employing simple and predictive functions.
+    When the regularization parameter is set to zero, the objective falls back to the traditional gradient tree boosting.
  
  Also GBM and XGB works on greedy search to decide  splitting criteria.
  
