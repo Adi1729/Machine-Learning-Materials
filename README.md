@@ -99,8 +99,9 @@ More is the error rate, less is the weightage given to trees.
  1. Regularization:
 
       Minimizethe following regularized objective. 
+      \mathcal{W}(A,f) = (T,\bar{f})
       
-      L(φ) = ∑il(ˆyi,yi) +∑kΩ(fk)  
+      L(φ) = ∑il(ˆyi,\bar{yi}) +∑kΩ(fk)  
          where  Ω(f) = γT+12λ‖w‖2(2) 
     l:  A differentiable convex loss function that measures the difference between the prediction y and the target yi.
     Ω : Penalizes the complexity of the model(i.e., the regression tree functions).  
