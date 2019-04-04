@@ -37,7 +37,7 @@ This section contains notes/summaries/questions on some of Machine Learning topi
 - [KMeans](#Kmeans)
 - [Decorrelating Trees](#Decorrelating-Trees)
 - [Shallow and Bushy Trees](#Shallow-and-Bushy-trees)
-- [Random Forest](#Does-Random-Forest-overfit-?)
+- [Random Forest](#Does-Random-Forest-overfit?)
 - [AdaBoost](#AdaBoost)
 - [Gradient Boost](#Gradient-Boost)
 - [XGBoost](#Extreme-Gradient-Boost )
