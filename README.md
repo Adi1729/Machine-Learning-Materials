@@ -37,7 +37,7 @@ This section contains notes/summaries/questions on some of Machine Learning topi
 - [KMeans](#Kmeans)
 - [Decorrelating Trees](#Decorrelating-Trees)
 - [Shallow and Bushy Trees](#Shallow-and-Bushy-trees)
-- [Random Forest](#Does-Random-Forest-overfit?)
+- [Random Forest](#Does-Random-Forest-overfit)
 - [AdaBoost](#AdaBoost)
 - [Gradient Boost](#Gradient-Boost)
 - [XGBoost](#Extreme-Gradient-Boost )
@@ -63,7 +63,7 @@ In Boosting trees, depending on problem statement one might get shallow tress as
 
 Source : https://www.youtube.com/watch?v=wPqtzj5VZus @42:05 
 
-## Does Random Forest overfit?
+## Does Random Forest overfit
 
   No. It uses bagging technique which generates several decision trees in parallel also known as base learners. Data sampled with replacement is fed to these learners for training. The final prediction is the averaged output from all the learners. Individual tress might have high variance, but the bagging method eventually reduces variance.
   
