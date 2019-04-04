@@ -34,6 +34,15 @@ This repository includes materials on different topics of machine learning algor
 
 This section contains notes/summaries/questions on some of Machine Learning topics.
 
+- [KMeans](#Kmeans)
+- [Decorrelating Trees](#Decorrelating Trees)
+- [Shallow and Bushy Trees](#Shallow and Bushy trees)
+- [Random Forest](#Does Random Forest overfit ?)
+- [AdaBoost](#AdaBoost)
+- [Gradient Boost](#Gradient Boost)
+- [XGBoost](#Extreme Gradient Boost )
+- [Logistic Regression](#Logistic Regression)
+
 ## Kmeans
   Inertia, or the within-cluster sum of squares criterion, can be recognized as a measure of how internally coherent clusters are. It suffers from various drawbacks:
 
