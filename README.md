@@ -70,7 +70,7 @@ Source : https://www.youtube.com/watch?v=wPqtzj5VZus @42:05
 
 ## Adaboost
 
-  Adaboost works by giving higher weightage to misclassification and lower weightage to correct classification.\
+  Adaboost works by giving higher weightage to misclassification and lower weightage to correct classification.
 
 For eg.\
 Lets say total number of rows = 1000\
@@ -103,22 +103,22 @@ More is the error rate, less is the weightage given to trees.
     g,h : first order and second order gradient descent of a loss funciton. \
     Ω : Penalizes the complexity of the model(i.e., the regression tree functions).\  
     λ : The additional regularization term helps to smooth the final learnt weights to avoid over-fitting.\
-    Gamma : This controls the number of leaves in trees.\
+    Gamma : This controls the number of leaves in trees.
     
   Intuitively, the regularized objective will tend to select a model employing simple and predictive functions.\
-  When the regularization parameter is set to zero, the objective falls back to the traditional gradient tree boosting.\
+  When the regularization parameter is set to zero, the objective falls back to the traditional gradient tree boosting.
    
   Method :\
   Sort the data\
   Find the best candidate for split according to objective function (or gain) (and not gini index or entropy).\
   XGB and GBM works on greedy algorithm to decide the best split.\
-  Grow the treee to maximum depth and then prunes the leaves which has negative gain.\
+  Grow the treee to maximum depth and then prunes the leaves which has negative gain.
   
-  Treating Missing Values :\
+  Treating Missing Values :
 
   Data with all missing points is guided to\
     - left nodes and gain is cacluated.\
-    - right nodes and gain is calculated.\
+    - right nodes and gain is calculated.
   
   And the one with maximum gain is eventually selected.\
   
