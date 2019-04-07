@@ -70,20 +70,19 @@ Source : https://www.youtube.com/watch?v=wPqtzj5VZus @42:05
 
 ## Adaboost
 
-  Adaboost works by giving higher weightage to misclassification and lower weightage to correct classification. 
+  Adaboost works by giving higher weightage to misclassification and lower weightage to correct classification.\
 
-For eg. 
-
-Lets say total number of rows = 1000
-initial weightage to each rows = 1/1000
-correct classification =  200
-misclassification = 800
-learning rate = 0.1
-weightage to rows of correct classification = (e^-0.1)/sum of numerator = 720
-weightage to rows of incorrect classifcation = (e^0.1)/sum of numerator = 220
-Hence , 20 rows from 200 misclassfied is duplicated to get 220 rows. This might results in overfitting.
-The next model is built. 
-At the end of n trees, weighted sum of predictions is taken into account. 
+For eg.\
+Lets say total number of rows = 1000\
+initial weightage to each rows = 1/1000\
+correct classification =  200\
+misclassification = 800\
+learning rate = 0.1\
+weightage to rows of correct classification = (e^-0.1)/sum of numerator = 720\
+weightage to rows of incorrect classifcation = (e^0.1)/sum of numerator = 220\
+Hence , 20 rows from 200 misclassfied is duplicated to get 220 rows. This might results in overfitting.\
+The next model is built.\
+At the end of n trees, weighted sum of predictions is taken into account.\
 More is the error rate, less is the weightage given to trees.
 
 ## Gradient Boost
@@ -103,7 +102,7 @@ More is the error rate, less is the weightage given to trees.
         One can define its own function given it's second order derivative is defined.\
     g,h : first order and second order gradient descent of a loss funciton. \
     Ω : Penalizes the complexity of the model(i.e., the regression tree functions).\  
-    λ : The additional regularization term helps to smooth the final learnt weights to avoid over-fitting.\ 
+    λ : The additional regularization term helps to smooth the final learnt weights to avoid over-fitting.\
     Gamma : This controls the number of leaves in trees.\
     
   Intuitively, the regularized objective will tend to select a model employing simple and predictive functions.\
@@ -116,7 +115,7 @@ More is the error rate, less is the weightage given to trees.
   Grow the treee to maximum depth and then prunes the leaves which has negative gain.\
   
   Treating Missing Values :\
-  
+
   Data with all missing points is guided to\
     - left nodes and gain is cacluated.\
     - right nodes and gain is calculated.\
