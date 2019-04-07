@@ -95,7 +95,7 @@ More is the error rate, less is the weightage given to trees.
 
 ## Extreme Gradient Boost      
          
-   Objective Function or Gain =  F(l,Ω,λ,g,h) - Gamma\
+   Objective Function or Gain =  F(l,Ω,λ,g,h) - Gamma
    
    F(l,Ω,λ) : Function to calcualte the weight At every terminal nodes. This depends on loss function and Ω,λ.\
    l:  A differentiable convex loss function that measures the difference between the prediction y and the target yi.\
@@ -103,7 +103,7 @@ More is the error rate, less is the weightage given to trees.
     g,h : first order and second order gradient descent of a loss funciton. \
     Ω : Penalizes the complexity of the model(i.e., the regression tree functions).\  
     λ : The additional regularization term helps to smooth the final learnt weights to avoid over-fitting.\
-    Gamma : This controls the number of leaves in trees.
+Gamma : This controls the number of leaves in trees.
     
   Intuitively, the regularized objective will tend to select a model employing simple and predictive functions.\
   When the regularization parameter is set to zero, the objective falls back to the traditional gradient tree boosting.
@@ -120,7 +120,7 @@ More is the error rate, less is the weightage given to trees.
     - left nodes and gain is cacluated.\
     - right nodes and gain is calculated.
   
-  And the one with maximum gain is eventually selected.\
+  And the one with maximum gain is eventually selected.
   
   Source : [Kaggle Winning Solution Xgboost Algorithm - Learn from Its Author, Tong He](https://www.youtube.com/watch?v=ufHo8vbk6g4)
  
