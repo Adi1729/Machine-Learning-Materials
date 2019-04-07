@@ -97,12 +97,12 @@ More is the error rate, less is the weightage given to trees.
          
    Objective Function or Gain =  F(l,Ω,λ,g,h) - Gamma
    
-   F(l,Ω,λ) : Function to calcualte the weight At every terminal nodes. This depends on loss function and Ω,λ.\
+   F(l,Ω,λ) : Function to calculate the weight(predictions score) at every terminal nodes. This depends on loss function and Ω,λ.\
    l:  A differentiable convex loss function that measures the difference between the prediction y and the target yi.\
         One can define its own function given it's second order derivative is defined.\
-    g,h : first order and second order gradient descent of a loss funciton. \
-    Ω : Penalizes the complexity of the model(i.e., the regression tree functions).\  
-    λ : The additional regularization term helps to smooth the final learnt weights to avoid over-fitting.\
+    g,h : first order and second order gradient descent of a loss funciton.\
+Ω : Penalizes the complexity of the model(i.e., the regression tree functions).\
+λ : The additional regularization term helps to smooth the final learnt weights to avoid over-fitting.\
 Gamma : This controls the number of leaves in trees.
     
   Intuitively, the regularized objective will tend to select a model employing simple and predictive functions.\
