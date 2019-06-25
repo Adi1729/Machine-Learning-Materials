@@ -35,6 +35,7 @@ This repository includes materials on different topics of machine learning algor
 This section contains notes/summaries/questions on some of Machine Learning topics.
 
 - [Machine Learning Interview Question Collections](https://www.kaggle.com/general/38420)
+- [Data Science Interview Preparation](https://github.com/conordewey3/DS-Career-Resources/blob/master/Interview-Resources.md)
 - [KMeans](#Kmeans)
 - [Decorrelating Trees](#Decorrelating-Trees)
 - [Shallow and Bushy Trees](#Shallow-and-Bushy-trees)
