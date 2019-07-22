@@ -1,6 +1,6 @@
  - ## Materials
  
-    - [Machine Learning](#(Machine Learning))
+    - [Machine Learning]((#Machine Learning))
     - [Python](#Python)
     - [Github Link](#Github)
 
@@ -33,14 +33,6 @@ This repository includes materials on different topics of machine learning algor
 ### Machine Learning Questions
 
 This section contains notes/summaries/questions on some of Machine Learning topics.
-
-## Kmeans
-  Inertia, or the within-cluster sum of squares criterion, can be recognized as a measure of how internally coherent clusters are. It suffers from various drawbacks:
-
-   1. Inertia makes the assumption that clusters are convex and isotropic, which is not always the case. It responds poorly to elongated clusters, or manifolds with irregular shapes.                                                                            
-   2. Inertia is not a normalized metric: we just know that lower values are better and zero is optimal. But in very high-dimensional spaces, Euclidean distances tend to become inflated (this is an instance of the so-called “curse of dimensionality”). Running a dimensionality reduction algorithm such as PCA prior to k-means clustering can alleviate this problem and speed up the computations.
-   
-   <img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/kmeans.png">
  
 ## Decorrelating Trees
 
@@ -96,6 +88,35 @@ More is the error rate, less is the weightage given to trees.
 
   <img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/model_interpretation_ensemble.png" width = 80%,  height = 80%>
 
+## K-Means Clustering
+
+### How does K-Means Clustering Work?
+Imagine a bunch of random points on a X-Y plane. Suppose if we try to find 3 clusters within this data, the algorithm would first choose 3 random points as 3 centroids from the data and calculate the eucledian distances between the each centroid. Based on these distances, 3 clusters would be formed such that all the points within that cluster is closer to the centroid. Finally the algorithm would calculate the centroids once again by taking the mean of all the points within the cluster. The process is repeated iteratively until the centroids stop changing. 
+
+### How to determine the number of clusters ?
+As the number of clusters increase, variation (sum of squares criterion) in data decreases. Variation is zero when the number of clusters is equal to number of data points. If we plot the reduction in variation vs number of clusters, we see that at certain point increasing the number of clusters decreases the variation the maximum. This plot is called the "elbow curve".
+[link](https://www.youtube.com/watch?v=4b5d3muPQmA)
+
+### Drawbacks of sum of Squares Criterion in K-means clustering.
+  Inertia, or the within-cluster sum of squares criterion, can be recognized as a measure of how internally coherent clusters are. It suffers from various drawbacks:
+
+   1. Inertia makes the assumption that clusters are convex and isotropic, which is not always the case. It responds poorly to elongated clusters, or manifolds with irregular shapes.                                                                            
+   2. Inertia is not a normalized metric: we just know that lower values are better and zero is optimal. But in very high-dimensional spaces, Euclidean distances tend to become inflated (this is an instance of the so-called “curse of dimensionality”). Running a dimensionality reduction algorithm such as PCA prior to k-means clustering can alleviate this problem and speed up the computations.
+   
+   <img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/kmeans.png">
+   
+### LDA
+-> K-Means is going to partition the n documents into k disjoint clusters whereas LDA tries to assign a document to a mixture of k different topics.
+[link](https://www.youtube.com/watch?v=DWJYZq_fQ2A)
+
+
+### Word2Vec Models
+-> Captures the semantic sense of the document. For similar words, dot product would be on the higher side.
+-> CBOW : Continous Bag of Words : Use the context word to predict the middle word.
+   Skipgram: Use the middle word to predict the context.
+-> Basically is a one layer neural network. In CBOW method the sentence like "My name is Aniket" is such that words "my","is","Aniket" would be used as input and "name" would be kept as output and the neural network is trained like this. One Hot encoding is used to train the model. Finally we would get an embedding matrix as a word embedding for every word in the corpus as the hidden layer of the neural network.
+
+
 
 
 
@@ -136,6 +157,15 @@ L1 regularization does feature selection. It does this by assigning insignifican
 L2 regularization forces the weights to be small but does not make them zero and does non sparse solution. L2 is not robust to outliers as square terms blows up the error differences of the outliers and the regularization term tries to fix it by penalizing the weights.
 
 [link](https://medium.com/datadriveninvestor/l1-l2-regularization-7f1b4fe948f2)
+
+
+
+## Things to be added.
+1. Complete workflow of a data science project.
+2. Doc to vec models
+3. Precision, Recall, lift charts, ROC curves.
+4. When to use a particular model.
+
 
 
 
