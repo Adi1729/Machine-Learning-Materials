@@ -124,7 +124,7 @@ Gamma : This controls the number of leaves in trees.
   
   And the one with maximum gain is eventually selected.
   
-  Source : [Kaggle Winning Solution Xgboost Algorithm - Learn from Its Author, Tong He](https://www.youtube.com/watch?v=ufHo8vbk6g4)
+  Source : [Kaggle Winning Solution Xgboost Algorithm - Learn from Its Author, Tong He](https://www.youtube.com/watch?v=ufHo8vbk6g4)\
   [Introduction to Boosted Trees](https://xgboost.readthedocs.io/en/latest/tutorials/model.html)
  
 ## How to see relationship of features with target variable.
