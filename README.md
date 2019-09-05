@@ -20,6 +20,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [AdaBoost - Special Case of Gradient Boost](https://www.youtube.com/watch?v=ErDgauqnTHk)
 - [ ] [Gradient Boost](https://www.youtube.com/watch?v=sRktKszFmSk)
 - [ ] [Gradient Boost and XGBoost - Understanding Maths](https://www.analyticsvidhya.com/blog/2018/09/an-end-to-end-guide-to-understand-the-math-behind-xgboost/)
+- [ ] [GBM Vs XGB](http://theprofessionalspoint.blogspot.com/2019/02/difference-between-gbm-gradient.html)
 
 
  ## Python
