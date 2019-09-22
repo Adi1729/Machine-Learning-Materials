@@ -71,6 +71,10 @@ Source : https://www.youtube.com/watch?v=wPqtzj5VZus @42:05
   No. It uses bagging technique which generates several decision trees in parallel also known as base learners. Data sampled with replacement is fed to these learners for training. The final prediction is the averaged output from all the learners. Individual tress might have high variance, but the bagging method eventually reduces variance.
   
 
+## Sampling at every node or trees ?
+
+Source :  https://www.researchgate.net/post/Why_values_for_SAMPLES_and_VALUE_are_different_at_each_node_of_the_tree_in_Random_Forest_scikit_python
+
 ## Adaboost
 
   Adaboost works by giving higher weightage to misclassification and lower weightage to correct classification.
