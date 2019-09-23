@@ -176,6 +176,7 @@ L1 regularization does feature selection. It does this by assigning insignifican
 L2 regularization forces the weights to be small but does not make them zero and does non sparse solution. L2 is not robust to outliers as square terms blows up the error differences of the outliers and the regularization term tries to fix it by penalizing the weights.
 
 [link](https://medium.com/datadriveninvestor/l1-l2-regularization-7f1b4fe948f2)
+[Difference](https://discuss.analyticsvidhya.com/t/difference-between-ridge-regression-and-lasso-and-its-effect/3000)
 
 
 
