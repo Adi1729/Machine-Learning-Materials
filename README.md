@@ -22,6 +22,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [Gradient Boost](https://www.youtube.com/watch?v=sRktKszFmSk)
 - [ ] [Gradient Boost and XGBoost - Understanding Maths](https://www.analyticsvidhya.com/blog/2018/09/an-end-to-end-guide-to-understand-the-math-behind-xgboost/)
 - [ ] [GBM Vs XGB](http://theprofessionalspoint.blogspot.com/2019/02/difference-between-gbm-gradient.html)
+- [ ] [Decision Trees Explaination](https://towardsdatascience.com/random-forests-and-decision-trees-from-scratch-in-python-3e4fa5ae4249)
 
 
  ## Python
