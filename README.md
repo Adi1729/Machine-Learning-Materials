@@ -9,6 +9,7 @@
 
 This repository includes materials on different topics of machine learning algorithms.
 
+- [ ] [Metrics for Linear Regression](https://towardsdatascience.com/metrics-to-understand-regression-models-in-plain-english-part-1-c902b2f4156f)
 - [ ] [Adaptive Boosting](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/boosting-survey.pdf)
 - [ ] [XGBoost](http://proceedings.mlr.press/v42/chen14.pdf)
 - [ ] [Random Forest](https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf) 
@@ -24,6 +25,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [GBM Vs XGB](http://theprofessionalspoint.blogspot.com/2019/02/difference-between-gbm-gradient.html)
 - [ ] [Decision Trees Explaination](https://towardsdatascience.com/random-forests-and-decision-trees-from-scratch-in-python-3e4fa5ae4249)
 - [ ] [ACF and PACF : Good Explanation](https://www.youtube.com/watch?v=DeORzP0go5I&list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3)
+- [ ] [Clearning air around Boosting](https://towardsdatascience.com/clearing-air-around-boosting-28452bb63f9e)
 
  ## Python
 - [ ] [Pydata](https://www.youtube.com/user/PyDataTV)
