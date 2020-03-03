@@ -26,6 +26,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [Decision Trees Explaination](https://towardsdatascience.com/random-forests-and-decision-trees-from-scratch-in-python-3e4fa5ae4249)
 - [ ] [ACF and PACF : Good Explanation](https://www.youtube.com/watch?v=DeORzP0go5I&list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3)
 - [ ] [Clearning air around Boosting](https://towardsdatascience.com/clearing-air-around-boosting-28452bb63f9e)
+- [ ] [XGboost explained by StatQuest](https://www.youtube.com/watch?v=OtD8wVaFm6E&t=6s)
 
  ## Python
 - [ ] [Pydata](https://www.youtube.com/user/PyDataTV)
