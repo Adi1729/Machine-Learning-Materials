@@ -9,6 +9,8 @@
 
 This repository includes materials on different topics of machine learning algorithms.
 - [ ] [Hashing in ML](https://medium.com/value-stream-design/introducing-one-of-the-best-hacks-in-machine-learning-the-hashing-trick-bf6a9c8af18f)
+- [ ] [Target Encoding Right Way](https://medium.com/@venkatasai.katuru/target-encoding-done-the-right-way-b6391e66c19f)
+- [ ] [Bayesian Encoding in IMDb Rating](https://www.wikiwand.com/en/Bayes_estimator#/Practical_example_of_Bayes_estimators)
 - [ ] [Different Types of Encoders in Python](https://www.kaggle.com/discdiver/category-encoders-examples)
 - [ ] [Smarter ways to encode](https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for-machine-learning-part-1-of-3-6dca2f71b159)
 - [ ] [Metrics for Linear Regression](https://towardsdatascience.com/metrics-to-understand-regression-models-in-plain-english-part-1-c902b2f4156f)
