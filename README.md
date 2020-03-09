@@ -18,6 +18,8 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [XGBoost](http://proceedings.mlr.press/v42/chen14.pdf)
 - [ ] [Random Forest](https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf) 
 - [ ] [Why Random Forest has 63% unique rows in each trees](https://stats.stackexchange.com/questions/88980/why-on-average-does-each-bootstrap-sample-contain-roughly-two-thirds-of-observat)
+- [ ] [Selecting features from 1000 columns - Video](https://www.youtube.com/watch?v=YaKMeAlHgqQ)
+- [ ] [Selecting features from 1000 columns - Pydata Deck] (https://www.slideshare.net/VishalPatel321/feature-reduction-techniques)
 - [ ] [NLP with Deep Learning](http://web.stanford.edu/class/cs224n/syllabus.html)
 - [ ] [Word Embedding - Analytics Vidhya](https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/)
 - [ ] [Word Embedding - Xin Rong](https://www.youtube.com/watch?v=D-ekE-Wlcds)
