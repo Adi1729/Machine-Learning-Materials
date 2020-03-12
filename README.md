@@ -13,6 +13,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [Bayesian Encoding in IMDb Rating](https://www.wikiwand.com/en/Bayes_estimator#/Practical_example_of_Bayes_estimators)
 - [ ] [Different Types of Encoders in Python](https://www.kaggle.com/discdiver/category-encoders-examples)
 - [ ] [Smarter ways to encode](https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for-machine-learning-part-1-of-3-6dca2f71b159)
+- [ ] [Entity Embeddings for Categorical Variables](https://www.youtube.com/watch?v=icmjDyNaj2E)
 - [ ] [Metrics for Linear Regression](https://towardsdatascience.com/metrics-to-understand-regression-models-in-plain-english-part-1-c902b2f4156f)
 - [ ] [Adaptive Boosting](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/boosting-survey.pdf)
 - [ ] [XGBoost](http://proceedings.mlr.press/v42/chen14.pdf)
