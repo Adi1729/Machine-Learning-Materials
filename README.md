@@ -36,6 +36,11 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [Clearning air around Boosting](https://towardsdatascience.com/clearing-air-around-boosting-28452bb63f9e)
 - [ ] [XGboost explained by StatQuest](https://www.youtube.com/watch?v=OtD8wVaFm6E&t=6s)
 
+ ## Optimization
+ 
+ -[ ] [Feather](https://blog.rstudio.com/2016/03/29/feather/) 
+
+
  ## Python
 - [ ] [Pydata](https://www.youtube.com/user/PyDataTV)
 - [ ] [Enthought](https://www.youtube.com/user/EnthoughtMedia) 
