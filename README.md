@@ -38,7 +38,7 @@ This repository includes materials on different topics of machine learning algor
 
  ## Optimization
  
- -[ ] [Feather](https://blog.rstudio.com/2016/03/29/feather/) 
+ - [ ] [Feather](https://blog.rstudio.com/2016/03/29/feather/) 
 
 
  ## Python
