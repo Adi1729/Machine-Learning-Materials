@@ -1,6 +1,6 @@
  - ## Materials
  
-    - [Machine Learning](#Machine Learning)
+    - [Machine Learning](#Machine/\Learning)
     - [Python](#Python)
     - [Github Link](#Github)
     - [Data Science with R](https://supervised-ml-course.netlify.com/)
