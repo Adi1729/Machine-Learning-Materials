@@ -205,15 +205,15 @@ Gamma : This controls the number of leaves in trees.
   <img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/model_interpretation_ensemble.png" width = 80%,  height = 80%>
  
 ### LDA
--> K-Means is going to partition the n documents into k disjoint clusters whereas LDA tries to assign a document to a mixture of k different topics.
+-> K-Means is going to partition the n documents into k disjoint clusters whereas LDA tries to assign a document to a mixture of k different topics.\
 [LDA](https://www.youtube.com/watch?v=DWJYZq_fQ2A)
 
 
 ### Word2Vec Models
--> Captures the semantic sense of the document. For similar words, dot product would be on the higher side.
--> CBOW : Continous Bag of Words : Use the context word to predict the middle word.
-   Skipgram: Use the middle word to predict the context.
--> Basically is a one layer neural network. In CBOW method the sentence like "My name is Aniket" is such that words "my","is","Aniket" would be used as input and "name" would be kept as output and the neural network is trained like this. One Hot encoding is used to train the model. Finally we would get an embedding matrix as a word embedding for every word in the corpus as the hidden layer of the neural network.
+-> Captures the semantic sense of the document. For similar words, dot product would be on the higher side.\
+-> CBOW : Continous Bag of Words : Use the context word to predict the middle word.\
+   Skipgram: Use the middle word to predict the context.\
+-> Basically is a one layer neural network. In CBOW method the sentence like "My name is Aniket" is such that words\ "my","is","Aniket" would be used as input and "name" would be kept as output and the neural network is trained like this. One\ Hot encoding is used to train the model. Finally we would get an embedding matrix as a word embedding for every word in the corpus as the hidden layer of the neural network.\
 
 
 ## Logistic Regression
