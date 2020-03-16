@@ -1,10 +1,6 @@
  - ## Materials
  
-    - [Machine Learning](#(Machine Learning))
-    - [Python](#Python)
-    - [Github Link](#Github)
-    - [Data Science with R](https://supervised-ml-course.netlify.com/)
-
+    
  ## Machine Learning
 
 This repository includes materials on different topics of machine learning algorithms.
