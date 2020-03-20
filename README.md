@@ -35,6 +35,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [ACF and PACF : Good Explanation](https://www.youtube.com/watch?v=DeORzP0go5I&list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3)
 - [ ] [Clearning air around Boosting](https://towardsdatascience.com/clearing-air-around-boosting-28452bb63f9e)
 - [ ] [XGboost explained by StatQuest](https://www.youtube.com/watch?v=OtD8wVaFm6E&t=6s)
+- [ ] [Time Series - FbProphet](https://towardsdatascience.com/a-quick-start-of-time-series-forecasting-with-a-practical-example-using-fb-prophet-31c4447a2274)
 
  ## Optimization
  
