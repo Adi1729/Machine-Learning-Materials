@@ -36,6 +36,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [Clearning air around Boosting](https://towardsdatascience.com/clearing-air-around-boosting-28452bb63f9e)
 - [ ] [XGboost explained by StatQuest](https://www.youtube.com/watch?v=OtD8wVaFm6E&t=6s)
 - [ ] [Time Series - FbProphet](https://towardsdatascience.com/a-quick-start-of-time-series-forecasting-with-a-practical-example-using-fb-prophet-31c4447a2274)
+- [ ] [Time Series - TBATS and BATS](https://medium.com/intive-developers/forecasting-time-series-with-multiple-seasonalities-using-tbats-in-python-398a00ac0e8a)
 
  ## Optimization
  
