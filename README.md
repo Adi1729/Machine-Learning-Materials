@@ -39,6 +39,7 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [Time Series - TBATS and BATS](https://medium.com/intive-developers/forecasting-time-series-with-multiple-seasonalities-using-tbats-in-python-398a00ac0e8a)
 - [ ] [Basics of Linear Algebra by Applied AI](https://colab.research.google.com/drive/1u702voTlK7dj7GRFXyGQtdq-LBSmcLkG)
 - [ ] [Basics of Image Processing with Numpy](http://www.degeneratestate.org/posts/2016/Oct/23/image-processing-with-numpy/)
+- [ ] [LDA explained by Luis Serrano](https://www.youtube.com/watch?v=T05t-SqKArY)
 
  ## Optimization
  
