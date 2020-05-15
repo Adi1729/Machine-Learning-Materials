@@ -8,6 +8,7 @@
  ## Machine Learning
 
 This repository includes materials on different topics of machine learning algorithms.
+
 - [ ] [Hashing in ML](https://medium.com/value-stream-design/introducing-one-of-the-best-hacks-in-machine-learning-the-hashing-trick-bf6a9c8af18f)
 - [ ] [Target Encoding Right Way](https://medium.com/@venkatasai.katuru/target-encoding-done-the-right-way-b6391e66c19f)
 - [ ] [Bayesian Encoding in IMDb Rating](https://www.wikiwand.com/en/Bayes_estimator#/Practical_example_of_Bayes_estimators)
@@ -49,6 +50,7 @@ This repository includes materials on different topics of machine learning algor
  ## Python
 - [ ] [Pydata](https://www.youtube.com/user/PyDataTV)
 - [ ] [Enthought](https://www.youtube.com/user/EnthoughtMedia) 
+- [ ] [Optimization in Python](https://engineering.upside.com/a-beginners-guide-to-optimizing-pandas-code-for-speed-c09ef2c6a4d6)
 
  ## Github 
 
