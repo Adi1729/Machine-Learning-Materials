@@ -51,6 +51,8 @@ This repository includes materials on different topics of machine learning algor
 - [ ] [Pydata](https://www.youtube.com/user/PyDataTV)
 - [ ] [Enthought](https://www.youtube.com/user/EnthoughtMedia) 
 - [ ] [Optimization in Python](https://engineering.upside.com/a-beginners-guide-to-optimizing-pandas-code-for-speed-c09ef2c6a4d6)
+- [ ] [Matlpotlib ](https://www.kaggle.com/subinium/simple-matplotlib-visualization-tips)
+- [ ] [Matplotlib explained with 80 Plots](https://www.kaggle.com/python10pm/plotting-with-python-learn-80-plots-step-by-step)
 
  ## Github 
 
