@@ -5,6 +5,11 @@
     - [Github Link](#Github)
     - [Data Science with R](https://supervised-ml-course.netlify.com/)
 
+- ## Interview Prep
+
+    - [InterviewQuery](#https://www.interviewquery.com/)
+    - [DataInterview](#https://datainterview.com/)
+
  ## Machine Learning
 
 This repository includes materials on different topics of machine learning algorithms.
