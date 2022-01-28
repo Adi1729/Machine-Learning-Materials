@@ -7,8 +7,8 @@
 
 - ## Interview Prep
 
-    - [InterviewQuery](#https://www.interviewquery.com/)
-    - [DataInterview](#https://datainterview.com/)
+    - [InterviewQuery](https://www.interviewquery.com/)
+    - [DataInterview](https://datainterview.com/)
 
  ## Machine Learning
 
