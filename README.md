@@ -10,6 +10,14 @@
     - [InterviewQuery](https://www.interviewquery.com/)
     - [DataInterview](https://datainterview.com/)
 
+
+- ## Statistics
+
+   - Central Limit Theorem
+   - Confidence Interval
+   - p-value
+   
+   
  ## Machine Learning
 
 This repository includes materials on different topics of machine learning algorithms.
