@@ -22,6 +22,7 @@
 
 This repository includes materials on different topics of machine learning algorithms.
 
+- [ ] [All clusterings explained](https://cs.wmich.edu/alfuqaha/summer14/cs6530/lectures/ClusteringAnalysis.pdf)
 - [ ] [Hashing in ML](https://medium.com/value-stream-design/introducing-one-of-the-best-hacks-in-machine-learning-the-hashing-trick-bf6a9c8af18f)
 - [ ] [Target Encoding Right Way](https://medium.com/@venkatasai.katuru/target-encoding-done-the-right-way-b6391e66c19f)
 - [ ] [Bayesian Encoding in IMDb Rating](https://www.wikiwand.com/en/Bayes_estimator#/Practical_example_of_Bayes_estimators)
